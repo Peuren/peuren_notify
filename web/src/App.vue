@@ -3,12 +3,12 @@ import { useToast } from 'primevue/usetoast';
 
 const toast = useToast();
 
-window.addEventListener("message", async (event) => {
+window.addEventListener("message", (event) => {
   if (event.data.type != "notify") return;
 
-  const { severity, summary, detail, life, position } = event.data;
+  const { severity, title, description, life, position } = event.data.data;
 
-  toast.add({ severity: severity, summary: summary, detail: detail, life: life, group: position });
+  toast.add({ severity: severity, summary: title, detail: description, life: life, group: position });
 });
 </script>
 
@@ -35,5 +35,21 @@ body {
 
 .p-toast .p-toast-message {
   backdrop-filter: none !important;
+}
+
+.p-toast-message-warn {
+  background: rgba(234, 178, 8, 0.16) !important;
+}
+
+.p-toast-message-info {
+  background: rgba(59, 130, 246, 0.16) !important;
+}
+
+.p-toast-message-success {
+  background: rgba(34, 197, 94, 0.16) !important;
+}
+
+.p-toast-message-error {
+  background: rgba(239, 68, 68, 0.16) !important;
 }
 </style>

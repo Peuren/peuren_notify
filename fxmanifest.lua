@@ -8,7 +8,7 @@ lua54 'yes'
 client_script "config.lua"
 client_script "client/main.lua"
 
-files { "web/build/**/*" }
+files { 'web/dist/**/**' }
 
-ui_page "http://localhost:5173/"
---ui_page "web/build/index.html"
+--ui_page "http://localhost:5173/"
+ui_page "web/dist/index.html"
