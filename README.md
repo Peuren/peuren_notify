@@ -42,11 +42,11 @@ TriggerEvent("peuren_notify", {
 ### PARAMETERS
 ```
 {
-	 title = title of the notification,
-	 description = description of the notification,
-	 severity = severity of the notification ("error" | "secondary" | "info" | "success" | "warn" | "contrast"),
-	 life = duration of the notification in milliseconds,
-	 position = position of the notification ("center" | "topleft" | "topcenter" | "topright" | "bottomleft" | "bottomcenter" | "bottomright")
+	title = title of the notification,
+	description = description of the notification,
+	severity = severity of the notification ("error" | "secondary" | "info" | "success" | "warn" | "contrast"),
+	life = duration of the notification in milliseconds,
+	position = position of the notification ("center" | "topleft" | "topcenter" | "topright" | "bottomleft" | "bottomcenter" | "bottomright")
 }
 ```
 
