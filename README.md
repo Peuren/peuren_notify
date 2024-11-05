@@ -5,6 +5,9 @@
 **A resource that provides notifications.
 You are also free to use this for your own resources, but be sure to include credit or use this script as a dependency if releasing paid work.**
 
+## Check us out!
+You can reach us on our [Discord](https://discord.gg/wtxqbm4Sjq) and you can find our releases on our [Tebex store](https://peuren.dev/)
+
 ## Usage
 
 ### EXPORT
@@ -52,6 +55,3 @@ TriggerEvent("peuren_notify", {
 
 ### UI
 Made using [PrimeVue](https://primevue.org/)
-
-## Check us out!
-You can reach us on our [Discord](https://discord.gg/wtxqbm4Sjq) and you can find our releases on our [Tebex store](https://peuren.tebex.io/)
